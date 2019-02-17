@@ -1,5 +1,4 @@
 import java.io.*;
-import java.nio.*;
 import java.util.*;
 
 public class World
@@ -10,7 +9,6 @@ public class World
     private int rideNum;
     private int bonus;
     private int steps;
-    Scanner scanner = new Scanner(System.in);
     ArrayList <Ride> rides = new ArrayList();
     ArrayList <Vehicle> vehicles = new ArrayList();
     public static void main(String[] args)
