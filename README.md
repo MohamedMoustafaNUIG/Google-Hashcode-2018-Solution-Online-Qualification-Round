@@ -16,7 +16,8 @@ Most straightforward way to run this code on your machine would be :
 # What each class does:
 ## World 
 * Contains the bounds (for "city" grid and time steps), number of vehicles, and number of rides.
-* It fills an array list with the Ride objects. The fields are populated from the input text file. An id is also added to differentiate each ride.
+* Fills an array list with Ride objects. The fields are populated from the input text file. An id is also added to differentiate each ride.
+* Fills an array list with Vehicle objects. The fields are populated from the input text file.
 * A printList method is present to test the aforementioned functionalities are present.
 
 ## Vehicle
