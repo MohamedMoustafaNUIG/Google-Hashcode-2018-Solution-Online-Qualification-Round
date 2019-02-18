@@ -5,7 +5,7 @@ public class Vehicle
     private int currRow;
     private int currCol;
     private int score;
-    private ArrayList<Route> route = new ArrayList();
+    private Route route = new Route();
     public Vehicle()
     {
         

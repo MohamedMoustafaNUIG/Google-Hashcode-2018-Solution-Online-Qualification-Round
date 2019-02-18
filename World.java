@@ -10,7 +10,6 @@ public class World
     private int rideNum;
     private int bonus;
     private int steps;
-    Scanner scanner = new Scanner(System.in);
     ArrayList <Ride> rides = new ArrayList();
     ArrayList <Vehicle> vehicles = new ArrayList();
     public static void main(String[] args)
@@ -21,6 +20,9 @@ public class World
     public World()
     {
         populateRides();
+        printList();
+        System.out.println("");
+        Collections.sort(rides,new SortRide());
         printList();
     }
     
