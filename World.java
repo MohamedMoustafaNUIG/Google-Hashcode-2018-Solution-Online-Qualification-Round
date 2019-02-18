@@ -1,5 +1,4 @@
 import java.io.*;
-import java.nio.*;
 import java.util.*;
 
 public class World
@@ -29,7 +28,7 @@ public class World
     public void populateRides()
     {
             try {
-                    BufferedReader br = new BufferedReader(new FileReader("C:/Users/Mohamad/Routing/input.txt")) ;
+                    BufferedReader br = new BufferedReader(new FileReader("C:/Users/.../input.txt")) ;//replace with appropriate directory
                     String thisLine=null;
                     String thisInt=null;
                     thisLine = br.readLine();

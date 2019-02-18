@@ -8,7 +8,10 @@ public class Vehicle
     private Route route = new Route();
     public Vehicle()
     {
-        
+        busy=false;
+        currRow=0;
+        currCol=0;
+        score=0;
     }
 
     public int sampleMethod(int y)
