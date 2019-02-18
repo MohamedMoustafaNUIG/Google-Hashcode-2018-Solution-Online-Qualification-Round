@@ -28,4 +28,7 @@ Most straightforward way to run this code on your machine would be :
 * Keeps record of all parameters of rides from input text file. Also has an id (as it is needed for output).
 
 ## Route
-* Simply an array list of rides that will be passed to vehicles to follow.
+* Simply an array list of rides that will be passed to vehicles to follow. Has a boolean field that decides whether or not a new ride can be added to it.
+
+## SortRide
+* A class required for sorting an ArrayList of ride objects. Sorts rides be ascending order of **earliest start time**, if two rides can start at the same time, then it checks for **latest finish time**. Collections.sort() requires such a class to be defined.
