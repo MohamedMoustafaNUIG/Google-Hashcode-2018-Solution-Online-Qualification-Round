@@ -1,4 +1,4 @@
-# Google-Hashcode-2018-Solution-Online-Qualification-Round
+# WIP Google-Hashcode-2018-Solution-Online-Qualification-Round
 This is an attempt at a solution for Google's Hashcode 2018 Online Qualification Round Problem (Self-driving rides)
 
 ## Usage
